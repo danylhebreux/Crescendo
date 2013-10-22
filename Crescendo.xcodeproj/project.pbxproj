@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F87B414F1815FA170002D499 /* COLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = F87B414E1815FA170002D499 /* COLoginView.m */; };
 		F8D8891E1812D2F400117896 /* CORootWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D8891D1812D2F400117896 /* CORootWindowController.m */; };
 		F8D889211812D92100117896 /* COPanelBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D889201812D92100117896 /* COPanelBackgroundView.m */; };
 		F8D889241812DBB200117896 /* COPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D889231812DBB200117896 /* COPanel.m */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F87B414D1815FA170002D499 /* COLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COLoginView.h; sourceTree = "<group>"; };
+		F87B414E1815FA170002D499 /* COLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COLoginView.m; sourceTree = "<group>"; };
 		F8D8891C1812D2F400117896 /* CORootWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CORootWindowController.h; sourceTree = "<group>"; };
 		F8D8891D1812D2F400117896 /* CORootWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CORootWindowController.m; sourceTree = "<group>"; };
 		F8D8891F1812D92100117896 /* COPanelBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COPanelBackgroundView.h; sourceTree = "<group>"; };
@@ -94,6 +97,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F87B414C1815F9310002D499 /* Vertically Aligned Textfield */ = {
+			isa = PBXGroup;
+			children = (
+				F8D889251814301800117896 /* COVerticallyAlignedTextFieldCell.h */,
+				F8D889261814301800117896 /* COVerticallyAlignedTextFieldCell.m */,
+				F8D8892818143ACA00117896 /* COVerticallyAlignedSecureTextFieldCell.h */,
+				F8D8892918143ACA00117896 /* COVerticallyAlignedSecureTextFieldCell.m */,
+			);
+			name = "Vertically Aligned Textfield";
+			sourceTree = "<group>";
+		};
 		F8FF5FB8181223DB0035106C = {
 			isa = PBXGroup;
 			children = (
@@ -142,12 +156,11 @@
 				F8D8891D1812D2F400117896 /* CORootWindowController.m */,
 				F8D889221812DBB200117896 /* COPanel.h */,
 				F8D889231812DBB200117896 /* COPanel.m */,
-				F8D889251814301800117896 /* COVerticallyAlignedTextFieldCell.h */,
-				F8D889261814301800117896 /* COVerticallyAlignedTextFieldCell.m */,
-				F8D8892818143ACA00117896 /* COVerticallyAlignedSecureTextFieldCell.h */,
-				F8D8892918143ACA00117896 /* COVerticallyAlignedSecureTextFieldCell.m */,
 				F8D8891F1812D92100117896 /* COPanelBackgroundView.h */,
 				F8D889201812D92100117896 /* COPanelBackgroundView.m */,
+				F87B414D1815FA170002D499 /* COLoginView.h */,
+				F87B414E1815FA170002D499 /* COLoginView.m */,
+				F87B414C1815F9310002D499 /* Vertically Aligned Textfield */,
 				F8FF60011812CC8A0035106C /* Status Item */,
 				F8FF5FD9181223DB0035106C /* MainMenu.xib */,
 				F8FF5FDC181223DB0035106C /* Images.xcassets */,
@@ -298,6 +311,7 @@
 			files = (
 				F8FF5FD8181223DB0035106C /* COAppDelegate.m in Sources */,
 				F8D889241812DBB200117896 /* COPanel.m in Sources */,
+				F87B414F1815FA170002D499 /* COLoginView.m in Sources */,
 				F8D8892A18143ACA00117896 /* COVerticallyAlignedSecureTextFieldCell.m in Sources */,
 				F8FF60001812CC840035106C /* COStatusItemController.m in Sources */,
 				F8D8891E1812D2F400117896 /* CORootWindowController.m in Sources */,
